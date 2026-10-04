@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "io.github.ypmrg.fire-tv-remote",
   "name": "Fire TV Remote",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "author": "Matthieu G.C.",
   "license": "MIT",
-  "description": "Keyboard-driven Fire TV Stick remote with Netflix/Prime/Disney+, ADB discovery, and device switching",
+  "description": "Keyboard-driven Fire TV Stick remote with Netflix/Prime/Disney+/YouTube, ADB discovery, and device switching",
   "kinds": [
     "bar-widget"
   ],

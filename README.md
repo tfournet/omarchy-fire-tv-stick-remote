@@ -2,12 +2,12 @@
 
 Control an Amazon Fire TV Stick from the Omarchy Quattro bar with the mouse or
 keyboard. The plugin uses network ADB and includes shortcuts for Netflix, Prime
-Video, and Disney+.
+Video, Disney+, and YouTube.
 
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/ypMrg/omarchy-fire-tv-stick-remote.git --enable
+omarchy plugin add https://github.com/tfournet/omarchy-fire-tv-stick-remote.git --enable
 ```
 
 The first launch creates an isolated Python environment and installs
@@ -53,7 +53,7 @@ If discovery finds nothing, enter the IPv4 address shown under
 | P | Play / pause |
 | − / + | Volume |
 | W / S | Wake / sleep |
-| 1 / 2 / 3 | Netflix / Prime Video / Disney+ |
+| 1 / 2 / 3 / 4 | Netflix / Prime Video / Disney+ / YouTube |
 | D | Devices |
 | Esc / Q | Close |
 
@@ -66,6 +66,9 @@ If discovery finds nothing, enter the IPv4 address shown under
 - `avahi-browse` recommended for immediate discovery
 
 ## Credits
+
+This is a fork of [ypMrg/omarchy-fire-tv-stick-remote](https://github.com/ypMrg/omarchy-fire-tv-stick-remote) (`https://github.com/ypMrg/omarchy-fire-tv-stick-remote.git`) that adds a YouTube shortcut.
+
 
 This plugin is **adapted almost entirely** from the Omarchy bar-widget and
 session design by **Thomas Evans**:
