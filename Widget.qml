@@ -824,7 +824,7 @@ BarWidget {
             width: parent.width
             wrapMode: Text.Wrap
             horizontalAlignment: Text.AlignHCenter
-            text: "[↑↓←→] MOVE  [↵] OK  [B/G/M]  [P] PLAY  [1-4] APPS  [D] DEV  [ESC]"
+            text: "[↑↓←→] MOVE  [↵] OK  [B/G/M]  [P] PLAY  [-/+] VOL  [1-4] APPS  [D] DEV  [ESC]"
             color: root.dim
             font.family: root.fontFamily
             font.pixelSize: root.clampFont(Style.font.caption, Style.space(8), Style.space(12))
